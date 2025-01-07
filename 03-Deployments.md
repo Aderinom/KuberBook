@@ -27,8 +27,6 @@ Microservices Architecture:
 - Payment Service Deployment
 - Notification Service Deployment
 
-
-
 ## Components of a Kubernetes Deployment
 
 A Kubernetes Deployment can include several key components and configurations:
@@ -78,9 +76,6 @@ A Kubernetes Deployment can include several key components and configurations:
     - Definitions for health checks and startup behavior
 
 
-
-
-
 ## Workload Resources
 
 - **StatefulSet**: Manages stateful applications, providing guarantees about the ordering and uniqueness of pods.
@@ -118,18 +113,6 @@ A Kubernetes Deployment can include several key components and configurations:
 - **Label**: Key-value pairs attached to objects for identification and organization.
 
 - **Annotation**: Similar to labels, but for non-identifying metadata.
-
-
-
-
-
-
-
-
-
-# Defining a Pod
-
-
 
 
 #### Why have multiple containers in one Pod?
